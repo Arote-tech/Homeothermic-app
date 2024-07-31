@@ -1,0 +1,355 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    position:relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    box-sizing:border-box;
+}
+
+body{
+    position:relative;
+    background-position:left;
+    background-repeat:space;
+    backface-visibility: hidden;
+    background-position-y: center;
+    background-attachment: fixed;
+    background-image:url('unsplash.jpg/A\ flower\ strand.jpg');
+    box-sizing: border-box;
+
+}
+
+#BKGimage{
+    position: absolute;
+    background-color: inherit;
+    height: 100%;
+    width:25%;
+    display:block;
+    object-position: 0lvh;
+    z-index: -1;
+}
+
+.navbar{
+    background-color: rgb(216, 145, 37);
+    display: flex;
+    width:100%;
+    height: 10%;
+    align-items:end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#links{
+    border:1px solid inherit;
+    background-color: aliceblue;
+    width:40%;
+    height: 25px;
+    padding-top:5px;
+    padding-left: 5px;
+    display: flex;
+    justify-content:start;
+    flex-basis:490px;
+    flex-direction: row;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+#logo{
+    width: 40%;
+    border:1px solid inherit;
+}
+            
+h2{
+    font-weight:bolder;
+    border:1px solid inherit;
+    font-style: oblique;
+    font-size:45px;
+    padding-left: 10px;
+    color:rgb(114, 12, 88,0.65);
+}
+
+li{
+    display:inline-block;
+    justify-content:stretch;
+    list-style: none;
+    padding-left: 30px;
+}
+
+li a{
+    font-size: 15px;
+    font-weight: bold;
+    justify-items: space-between;
+    overflow: hidden;
+    text-decoration: none;
+    flex-wrap: nowrap;
+    text-wrap: nowrap;
+    color:rgba(21, 86, 45, 0.89);
+}
+
+li button a{
+    color: blue;
+    font-size:15px;
+    display:inline-flex;
+
+}
+
+button{
+    justify-items: space-between;
+    overflow: hidden;
+        
+}
+
+#btn{
+    width:20%;
+    height:30px ;
+    border:1px solid inherit;
+    display: inline-block;
+    padding:5px 15px 5px 5px;
+}
+
+a:hover{
+    background-color: white;
+    transition:0.4s ease;
+    color:rgb(109, 180, 38);
+    text-decoration: underline;
+}
+
+#PS{
+   border:1px solid inherit;
+   border-radius: 5px;
+   background-color: wheat;
+   padding: 2px;
+}
+
+#PS:hover{
+   color: blueviolet; 
+}
+
+#HP{
+    border:1px solid inherit;
+    border-radius: 5px;
+    background-color: wheat;
+    padding: 2px;  
+}
+
+#HP:hover{
+    color: blueviolet;
+}
+
+#AU{
+    border:1px solid inherit;
+    border-radius: 5px;
+    background-color: wheat;
+    padding: 2px; 
+}
+
+#AU:hover{
+    color: blueviolet;
+}
+
+#NT{
+    border:1px solid inherit;
+    border-radius: 5px;
+    background-color: wheat;
+    padding: 2px;
+}
+
+#NT:hover{
+    color: blueviolet;
+}
+
+#SV{
+    border:1px solid inherit;
+    border-radius: 5px;
+    background-color: wheat;
+    padding: 2px;
+}
+
+#SV:hover{
+    color: blueviolet;
+}
+
+.welcome{
+    border:1px solid inherit;
+    border-radius: 5px;
+    background-color: rgb(237, 235, 231);
+    padding-left: 10px;
+    font-style:oblique;
+    font-size:smaller;
+        
+}
+
+
+.table{
+    border-collapse:collapse;       
+    text-decoration:none;
+    position: absolute;
+}
+
+.table-caption{
+    caption-side:bottom
+}
+
+.caption{
+    color:rgba(19, 118, 80, 0.581); 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            
+}
+
+#superheroes{
+    border: 1px solid inherit;
+    background-color:inherit;
+    position:relative;
+    width:75%;
+    height: 750px;
+    padding-left: 10px;
+    display:inline-flex;
+    overflow: hidden;
+    text-wrap: nowrap;
+    
+}
+
+th.col1{
+    background-color:rgb(255,166, 0, 0.416);
+}
+th.col2{
+    background-color: rgb(102, 60,164,0.382);
+}
+th.col3{
+    background-color:rgb(102, 60,164,0.382);
+}
+th.col4{
+    background-color: rgb(255,222,205,0.843);
+}
+th.col5{
+    background-color: rgb(255,222,205,0.843)
+}
+
+#aside{
+    border: 1px solid inherit;
+    background-color:silver;
+    width:25%;
+    height: 100%;
+    position:relative;
+    overflow: auto;
+    box-sizing: border-box;
+    
+}
+
+#adjoinment{
+    border:3px solid inherit;
+    width:98%;
+    height:80%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    padding:20px 0px 0px 10px;
+    margin-left: 8px;
+    position: relative;
+    box-sizing: border-box;
+   
+}
+
+#advertise{
+    border:3px dotted inherit;
+    background-color: black;
+    background-repeat: no-repeat;
+    position:fixed;
+    color:white;
+    width: 90%;
+    height:100%;
+    display:grid;
+    float:right;
+    overflow:hidden;
+    font-style: oblique;
+    font-family:Lucida;
+    padding:10px 2px 0px 10px;
+    position: fixed;
+    box-sizing: border-box;
+
+}
+
+h3{
+    color: rgb(15, 185, 185);
+    font-size:x-large;
+    position:absolute;
+    padding: 5px 5px;
+    border:1px solid inherit;
+    overflow: hidden;
+    text-overflow: inherit;
+    text-wrap: nowrap;
+    box-sizing: border-box;
+}
+
+#ad-space{
+    position:absolute;
+    display:block;
+    padding: 5px 5px;
+    border:1px solid inherit;
+    box-sizing: border-box;
+}
+
+.advert-info{
+    position:relative;
+    display:block;
+    padding: 5px 5px;
+    border:1px solid inherit;
+    box-sizing: border-box;
+    overflow: auto;
+ 
+}
+
+
+#fantasia{
+    border:1px solid inherit;
+    background: fixed;
+    background-color:transparent;
+    display:flex;
+    width:850px;
+    height: 100%;
+    box-sizing:border-box;
+    align-content:flex-start;
+    padding:10px;
+
+}
+
+h5{
+   color:cornflowerblue;
+   font-size:large;
+   font-family: 'Courier New', Courier, monospace;
+   padding-left: 50px;    
+}
+
+.mainstory{
+    font-size: 14px;
+    font-family:arial;
+    overflow:auto;
+    
+}
+
+#tableposition{
+    display: block;
+    float:inline-end;
+    padding-right: 70px;   
+}
+
+/* Devices responsiveness */
+
+@media(max-width=680px){
+    .navbar{
+        background-color: rgb(60, 185, 97 0.5);
+        display: flex;
+        flex-direction:column;
+        flex-wrap:wrap;
+        overflow:auto;
+            }
+    
+
+
+}
+            
+
+        
