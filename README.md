@@ -1,2 +1,0 @@
-# copycat.html
-# june.css
